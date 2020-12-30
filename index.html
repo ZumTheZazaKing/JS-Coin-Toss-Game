@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Coin Toss Game</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <p id="title">Coin Toss Game</p>
+        <p id="desc">Can you beat the computer?</p>
+        <img id="image" class="hidden" src="coinheads.jpg" width="200px" height="200px" alt="coin">
+    
+        <p id="instruction" class="text">Choose a side</p>
+    
+        <button id="heads" class="btn" onclick="heads()">Heads</button>
+        <button id="tails" class="btn" onclick="tails()">Tails</button>
+
+        <p id="userChoice" class="hide text">You chose</p>
+        <p id="computerChoice" class="hide text">The computer chose</p>
+        <p id="results" class="hide text">Congratulations! You won</p>
+
+        <button  class="hide btn" id="playAgain" onclick="playAgain()">Play Again</button>
+
+    </div>
+    
+    
+</body>
+</html>
